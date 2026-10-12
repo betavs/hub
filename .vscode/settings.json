@@ -1,0 +1,21 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "cSpell.words": [
+    "betavs",
+    "miniprogram",
+    "opentiny",
+    "Oteam",
+    "primefaces",
+    "primereact",
+    "primevue",
+    "tdesign",
+    "VITE",
+    "vitepress"
+  ],
+  "json.schemaDownload.trustedDomains": {
+    "https://openapi.vercel.sh": true
+  }
+}

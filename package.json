@@ -1,0 +1,37 @@
+{
+  "name": "hub",
+  "version": "1.0.0",
+  "description": "A personal digital space for notes, ideas, and experiments.",
+  "main": "scripts/index.ts",
+  "type": "module",
+  "private": true,
+  "keywords": [],
+  "author": "https://github.com/betavs",
+  "license": "MIT",
+  "packageManager": "pnpm@10.31.0",
+  "scripts": {
+    "prepare": "husky",
+    "docs:dev": "tsx scripts/index.ts && vitepress dev docs",
+    "docs:build": "tsx scripts/index.ts && vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.3",
+    "@commitlint/config-conventional": "^21.2.3",
+    "@types/node": "^26.6.5",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.6.0",
+    "prettier": "^3.9.10",
+    "tsx": "^4.23.15",
+    "vitepress": "2.0.0-alpha.15",
+    "vue": "^3.5.43"
+  },
+  "lint-staged": {
+    "*.{js,ts,md,css,mjs,mts,json,yaml}": [
+      "prettier --write"
+    ]
+  }
+}
