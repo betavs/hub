@@ -37,6 +37,12 @@ description: Connecting the world, right here, right now.
 __API__/clash/sub?url={service_subscribe_link}
 ```
 
+::: details Enjoy my content? Support my work with a coffee!
+
+![WeChat Sponsor](__API__/assets/wechat-sponsor-qr.png)
+
+Thank you for your support! ❤️
+
 :::
 
 ::: tip Usage
@@ -64,5 +70,11 @@ __API__/clash/sub?url={service_subscribe_link}
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
+  }
+
+  [src$="sponsor-qr.png"] {
+    width: 120px;
+    height: 120px;
+    border-radius: 4px;
   }
 </style>

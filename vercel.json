@@ -1,5 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "name": "betavs",
+  "regions": ["sin1"],
   "framework": "vitepress",
   "installCommand": "pnpm install --frozen-lockfile",
   "buildCommand": "pnpm docs:build",

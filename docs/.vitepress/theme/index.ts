@@ -1,4 +1,3 @@
-import { inject } from '@vercel/analytics';
 import type { Theme } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
 import { h } from 'vue';
@@ -12,7 +11,5 @@ export default {
     return h(DefaultTheme.Layout, null, {});
   },
 
-  enhanceApp({ app, router, siteData }) {
-    inject();
-  },
+  enhanceApp({ app, router, siteData }) {},
 } satisfies Theme;
